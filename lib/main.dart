@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "AI英単語帳",
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
   }
